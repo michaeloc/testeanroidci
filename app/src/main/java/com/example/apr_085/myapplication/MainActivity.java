@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
         mPager = findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
-
-
     }
 
     @Override
